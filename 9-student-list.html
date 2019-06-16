@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student List</title>
+    <style>
+        table{
+            width: 90%;
+        }
+        table#tbl{
+            border: 1px solid black;
+        }
+        table#tbl thead tr {
+            background: #036;
+            color: white;
+            border: 1px solid black;
+        }
+        table#tbl thead tr th{
+            text-align: left;
+        }
+        table#tbl tbody tr{
+            border-bottom: 1px solid black;
+        }
+        table#tbl tbody tr:nth-child(odd){
+            background: #ccc;
+        }
+        table#tbl tbody tr:nth-child(even){
+            background: darkcyan;
+        }
+        table#tbl tbody tr:hover{
+            background: blue;
+            color: white;
+            cursor: pointer;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Student List</h1>
+
+    <table id="tbl" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>Name</th>
+                    <th>Sex</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Mayuthean</td>
+                <td>Male</td>
+                <td>mayuthean@gmail.com</td>
+                <td>010 220 244</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Mayuthean</td>
+                <td>Male</td>
+                <td>mayuthean@gmail.com</td>
+                <td>010 220 244</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Mayuthean</td>
+                <td>Male</td>
+                <td>mayuthean@gmail.com</td>
+                <td>010 220 244</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Mayuthean</td>
+                <td>Male</td>
+                <td>mayuthean@gmail.com</td>
+                <td>010 220 244</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
